@@ -11,7 +11,7 @@ function Footer() {
             <div className='footerdiv22'>
               <h4 className='kitchen'>chuk's Kitchen</h4>
             </div>
-            <p className='flavour'>Bring the authentic <br />flavour of Nigeria <br /> home cooking to your <br /> table, with passion <br />and care.</p>
+            <p className='flavour'>Bring the authentic flavour of Nigeria home cooking to your  table, with passion and care.</p>
             
           </div>
         <div className='footerdiv2'>
@@ -67,7 +67,16 @@ function Footer() {
             </Link>
         </div>
         </div>
+        <div className='copyright'>
+          <div className='copyright1'>
+            <small>© 2020 Lift Media. All rights reserved.</small>
+          </div>
+          <div className='copyright2'>
+            <img className='arrowimg' src="/arrow.png" alt="" />
+          </div>
+        </div>
       </div>
+      
     </section>
 
     

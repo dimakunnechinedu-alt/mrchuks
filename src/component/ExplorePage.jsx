@@ -41,45 +41,45 @@ function ExplorePage() {
           <div className='popular-exp2'>
             <img className='chikimg' src="/chik-rice.png" alt="" id='chikimg' />
             <h4 className='jollof'>Jollof Rice & Fried Chicken</h4>
-            <p className='jollofchik'>Our signature Jollof rice, served with crispy fried chicken and plantain.</p>
+            <p className='jollofchik' id='chik4'>Our signature Jollof rice, served with crispy fried chicken and plantain.</p>
             <div className='popularexp3'>
-              <div className='popularexp31'><h5 id='amout'>N3500</h5></div>
+              <div className='popularexp31'><h5 id='amout'>₦3,500</h5></div>
               <div className='popularexp31' id='expo'><h2 id='signs'>+</h2></div>
             </div>
           </div>
           <div className='popular-exp2'>
              <img className='chikimg' src="/fufu-egusi.png" alt="" />
-            <h4 className='jollof'>Eba & Egusi Soup (Goat Meat)</h4>
+            <h4 className='jollof' id='eba'>Eba & Egusi Soup (Goat Meat)</h4>
             <p className='jollofchik'>Hearty Egusi soup with tender goat meat, served with soft Eba.</p>
             <div className='popularexp3'>
-              <div className='popularexp31'><h5 id='amout'>N3500</h5></div>
+              <div className='popularexp31'><h5 id='amout'>₦3,500</h5></div>
               <div className='popularexp31' id='expo'><h2 id='signs'>+</h2></div>
             </div>
           </div>
           <div className='popular-exp2'>
              <img className='chikimg' src="/image3.png" alt="" />
             <h4 className='jollof'>Pounded Yam & Edikaikong</h4>
-            <p className='jollofchik'>Traditional pounded yam with rich, leafy Edikaikong soup.</p>
+            <p className='jollofchik4'>Traditional pounded yam with rich, leafy Edikaikong soup.</p>
             <div className='popularexp3'>
-              <div className='popularexp31'><h5 id='amout'>N3800</h5></div>
+              <div className='popularexp31'><h5 id='amout'>₦3,800</h5></div>
               <div className='popularexp31' id='expo'><h2 id='signs'>+</h2></div>
             </div>
           </div>
           <div className='popular-exp2'>
              <img className='chikimg' src="/image2.png" alt="" />
-            <h4 className='jollof'>Peppered Snail</h4>
-            <p className='jollofchik'>Spicy and savory peppered snail, perfect as a starter.</p>
+            <h4 className='jollof' id='snail1'>Peppered Snail</h4>
+            <p className='jollofchik4'>Spicy and savory peppered snail, perfect as a starter.</p>
             <div className='popularexp3'>
-              <div className='popularexp31'><h5 id='amout'>N2500</h5></div>
+              <div className='popularexp31'><h5 id='amout'>₦2,500</h5></div>
               <div className='popularexp31' id='expo'><h2 id='signs'>+</h2></div>
             </div>
           </div>
           <div className='popular-exp2'>
              <img className='chikimg' src="/image1.png" alt="" />
             <h4 className='jollof'>Grilled Tilapia Fish</h4>
-            <p className='jollofchik'>Whole grilled tilapia seasoned with our special spices.</p>
+            <p className='jollofchik4'>Whole grilled tilapia seasoned with our special spices.</p>
             <div className='popularexp3'>
-              <div className='popularexp31'><h5 id='amout'>N4500</h5></div>
+              <div className='popularexp31'><h5 id='amout'>₦4,500</h5></div>
               <div className='popularexp31' id='expo'><h2 id='signs'>+</h2></div>
             </div>
           </div>
@@ -88,7 +88,7 @@ function ExplorePage() {
             <h4 className='jollof'>Jollof Rice & Fried Chicken</h4>
             <p className='jollofchik'>Our signature Jollof rice, served with crispy fried chicken and plantain.</p>
             <div className='popularexp3'>
-              <div className='popularexp31'><h5 id='amout'>N3500</h5></div>
+              <div className='popularexp31'><h5 id='amout'>₦3,500</h5></div>
               <div className='popularexp31' id='expo'><h2 id='signs'>+</h2></div>
             </div>
           </div>
@@ -105,25 +105,25 @@ function ExplorePage() {
             <h4 className='jollof'>Jollof Rice & Fried Chicken</h4>
             <p className='jollofchik'>Our signature Jollof rice, served with crispy fried chicken and plantain.</p>
             <div className='popularexp3'>
-              <div className='popularexp31'><h5 id='amout'>N3500</h5></div>
+              <div className='popularexp31'><h5 id='amout'>₦3,500</h5></div>
               <div className='popularexp31' id='expo'><h2 id='signs'>+</h2></div>
             </div>
           </div>
           <div className='popular-exp2'>
              <img className='chikimg' src="/chik-rice.png" alt="" id='chikimg'/>
             <h4 className='jollof'>Party Jollof Rice (Veg)</h4>
-            <p className='jollofchik'>Vegetarian party jollof, full of rich flavors.</p>
+            <p className='jollofchik1'>Vegetarian party jollof, full of rich flavors.</p>
             <div className='popularexp3'>
-              <div className='popularexp31'><h5 id='amout'>N2800</h5></div>
+              <div className='popularexp31'><h5 id='amout'>₦2,800</h5></div>
               <div className='popularexp31' id='expo'><h2 id='signs'>+</h2></div>
             </div>
           </div>
           <div className='popular-exp2'>
              <img className='chikimg' src="/chik-rice.png" alt="" id='chikimg' />
             <h4 className='jollof'>Party Jollof Rice (Veg)</h4>
-            <p className='jollofchik'>Vegetarian party jollof, full of rich flavors.</p>
+            <p className='jollofchik1'>Vegetarian party jollof, full of rich flavors.</p>
             <div className='popularexp3'>
-              <div className='popularexp31'><h5 id='amout'>N3500</h5></div>
+              <div className='popularexp31'><h5 id='amout'>₦3,500</h5></div>
               <div className='popularexp31' id='expo'><h2 id='signs'>+</h2></div>
             </div>
           </div>
@@ -132,25 +132,25 @@ function ExplorePage() {
             <h4 className='jollof'>Amala with Gbegiri & Ewedu</h4>
             <p className='jollofchik'>Classic Amala served with Gbegiri (beans) and Ewedu (jute leaf) soup.</p>
             <div className='popularexp3'>
-              <div className='popularexp31'><h5 id='amout'>N3100</h5></div>
+              <div className='popularexp31'><h5 id='amout'>₦3,500</h5></div>
               <div className='popularexp31' id='expo'><h2 id='signs'>+</h2></div>
             </div>
           </div>
           <div className='popular-exp2'>
              <img className='chikimg' src="/okro-fufu.png" alt="" />
             <h4 className='jollof'>Fufu & Okra Soup (Fish)</h4>
-            <p className='jollofchik'>Light Fufu served with fresh okra soup and tilapia fish.</p>
+            <p className='jollofchik2'>Light Fufu served with fresh okra soup and tilapia fish.</p>
             <div className='popularexp3'>
-              <div className='popularexp31'><h5 id='amout'>N3300</h5></div>
+              <div className='popularexp31'><h5 id='amout'>₦3,500</h5></div>
               <div className='popularexp31' id='expo'><h2 id='signs'>+</h2></div>
             </div>
           </div>
           <div className='popular-exp2'>
              <img className='chikimg' src="/okro-fufu.png" alt="" id='chikimg'/>
             <h4 className='jollof'>Fufu & Okra Soup (Fish)</h4>
-            <p className='jollofchik'>Light Fufu served with fresh okra soup and tilapia fish.</p>
+            <p className='jollofchik2'>Light Fufu served with fresh okra soup and tilapia fish.</p>
             <div className='popularexp3'>
-              <div className='popularexp31'><h5 id='amout'>N3500</h5></div>
+              <div className='popularexp31'><h5 id='amout'>₦3,500</h5></div>
               <div className='popularexp31' id='expo'><h2 id='signs'>+</h2></div>
             </div>
           </div>

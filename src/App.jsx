@@ -1,5 +1,6 @@
 
 import './App.css'
+import './Mediaquerry.css'
 import { Routes,Route } from 'react-router-dom'
 import MainLayout from './Layout/MainLayout'
 import Home from './Pages/Home'
