@@ -142,7 +142,7 @@ function HomePage() {
 
       <p className='fresh'>Explore exciting new dishes,crafted with the freshest ingredients <br /> and authentic Nigeria flavour.Limited time offer!</p>
       <div className='secbox-container1'>
-        <h4 className='discover'>Discover What's new</h4>
+        <h4 className='discover'>Discover what's new</h4>
       </div>
 
       </div>
