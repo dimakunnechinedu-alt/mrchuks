@@ -38,14 +38,16 @@ function LoginPage() {
            </div>
            <div className='loginbtn'>
             <p>Continue</p>
-           </div><br />
+           </div>
+           <div className='contiwith'>or continue with</div>
+           
            <div className='google'>
             <img className='googleimg' src="/Social Media.png" alt="" />
             <p className='conti'>Continue with Google</p>
            </div>
            <div className='facebook'>
-            <img className='googleimg' src="/Social Media.png" alt="" />
-            <p className='conti'>Continue with Apple</p>
+            <img className='googleimg' src="/facebook.png" alt="" />
+            <p className='conti'>Continue with Facebook</p>
            </div>
            <div className='create'><p className='createacc1'>Don’t have an account? <span className='createacc'>Craete an account</span></p></div>
           </div>

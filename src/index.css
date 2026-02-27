@@ -11,10 +11,24 @@ body{
 }
 .sec-explore{
   width: 100%;
+  background-color: lightgray;
 }
 .div-explore{
-  background-image: url(../public/chicken-rice.png);
+  width: 100%;
+  background-image: url(../public/bean-stew.png);
   height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div-explore::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0,0,0,0.8);
+}
+.div-explore p,p{
+  position: relative;
+  z-index: 1;
 }
 .chuks-kit{
   color: #FFFFFF;
@@ -174,25 +188,31 @@ body{
 .sec-order{
   width: 100%;
 }
-.cart{
-  margin-left: 65px;
-  font-size: 20px;
-  font-weight:900 ;
-  margin-top: 18px;
+.cart1{
+  width: 90%;
+  margin: auto;
+  font-size: 22px;
+  font-weight: 900;
+}
+.code11{
+  width: 90%;
+ 
+  margin: auto;
+  padding: 1px;font-size: 20px;
 }
 .div-order{
   width: 90%;
   height: 100%;
-  background-color: #FF7A18;
+  /* background-color: #FF7A18; */
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: solid 0.5px grey;
 }
 .div-order1{
   width: 18%;
-  
-  background-color: #666;
+  /* background-color: #666; */
   margin: 5px;
 }
 .orederimg{
@@ -205,7 +225,7 @@ body{
   width: 78%;
   height: 40%;
   padding: 5px;
-  background-color: aqua;
+  /* background-color: aqua; */
   /* margin: 25px; */
   display: flex;
   padding: 5px;
@@ -221,20 +241,20 @@ body{
 .div-order3{
   width: 48%;
   /* height: 50%; */
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
   /* margin: 1px; */
 }
 .div-order4{
   width: 58%;
   height: 40%;
-  background-color: brown;
+  /* background-color: brown; */
   margin: 1px;
   display: flex;
   justify-content: space-around;
 }
 .div-order5{
   width: 98%;
-  background-color: red;
+  /* background-color: red; */
   margin: 5px;
   padding: 5px;
   display: flex;
@@ -252,6 +272,7 @@ body{
 .delete{
   width: 10%;
   margin: 5px;
+  padding: 1px;
   background-color: #FF7A18;
   display: flex;
   justify-content: center;
@@ -262,33 +283,39 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 20px;
 }
 .delete3{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-input{
-  width: 68%;
-  margin-left: 60px;
-  padding: 1%;
-  border-radius: 5px;
-  border: solid 1px grey;
-}
-.code{
-  margin-left: 65px;
-  font-size: 16px;
+
   
 }
-button{
-  width: 21%;
-  background-color: #FF7A18;
-  margin: 1%;
-  padding: 1%;
-  border-radius: 5px;
-  border: none;
-  color: #FFFFFF;
+.promo{
+  width: 100%;
+  
 }
+.button{
+  width: 91%;
+  margin: auto;
+}
+#code{
+  width: 68%;
+  margin: 1px;
+  padding: 1%;
+  border: solid 0.5px grey;
+  border-radius: 5px;
+}
+button{
+  width: 31%;
+  padding: 1%;
+  background-color: #FF7A18;
+  border: none;
+  border-radius: 5px;
+}
+
+
 .summary{
   width: 92%;
   margin: auto;
@@ -321,12 +348,17 @@ button{
   text-align: end;
 }
 .summary22{
-  width: 98%;
-  margin-left: 60px;
+  width: 100%;
+
+  
+}
+.summary-delivery{
+  width: 90%;
+  margin: auto;
   display: flex;
 }
 .summary23{
-  width: 46%;
+  width: 50%;
   background-color: #FF7A18;
   padding: 1%;
   border-top-left-radius: 5px;
@@ -336,7 +368,7 @@ button{
   color: #FFFFFF;
 }
 .summary24{
-  width: 46%;
+  width: 50%;
   background-color: lightgray;
   padding: 1%;
   border-top-right-radius: 5px;
@@ -345,26 +377,43 @@ button{
   font-size: 18px;
   color: #FFFFFF;
 }
-.special-ins{
-  margin-left:60px;
-  font-size: 22px;
- 
+.special-ins1{
+  width: 90%;
+  
+  margin: auto;
+  font-size: 20px;
+}
+
+.textareadiv{
+  width: 100%;
+}
+.textareadiv1{
+  width: 90%;
+  margin: auto;
 }
 .tasty{
-   width: 91%;
-   margin-left: 55px;
-   padding: 1%;
+  width: 100%;
   resize: vertical;
+  padding: 5px;
+  margin: 1px;
+  margin-top: 5px;
   
 }
+.checkout{
+  width: 100%;
+}
+.checkout1{
+  width: 90%;
+  margin: auto;
+}
 .summary3{
-  width: 91%;
-  background-color:#FF7A18;
-  margin-left: 53px;
-  border-radius: 5px;
+  width: 100%;
+  background-color: #FF7A18;
+  margin: 1px;
   padding: 1%;
+  border-radius: 5px;
   text-align: center;
-  color: white;
+  font-size: 18px;
 
 }
 .sec-account{
@@ -373,20 +422,22 @@ button{
   padding: 1%;
   
 }
-.payment{
-  margin-left: 45px;
-  font-weight: 900;
-  font-size: 30px;
+.payment1{
+ width: 90%;
+ margin: auto;
+ font-size: 22px;
+ font-weight: 900;
 }
-.pay{
-  margin-left: 30px;
-  font-size: 16px;
-  font-weight: 600;
+.pay1{
+  width: 90%;
+  margin: auto;
+ 
 }
 .div-account{
-  width: 98%;
-  padding: 1px;
+  width: 90%;
+  margin: auto;
   display: flex;
+ 
 }
 .div-account1{
   width: 31.33%;
@@ -401,27 +452,36 @@ button{
 .cardimg{
   margin-left: 8px;
 }
-.cardpay{
-   margin-left: 30px;
-   font-weight: 500;
+.cardpay1{
+   width: 90%;
+   margin: auto;
+}
+.inputcard1{
+  width: 90%;
+  
+  margin: auto;
 }
 .input-card{
-  width: 95%;
-  margin-left: 30px;
+  width: 100%;
+  margin: 1px;
+  padding: 1%;
+  border-radius: 5px;
+ 
+
 }
 .div-card{
-  width: 100%;
+  width: 93%;
   margin: auto;
   display: flex;
 }
 .div-card1{
   width: 50%;
-  margin: 1%;
+  
   padding: 1%;
 }
 .div-card2{
   width: 50%;
-  margin: 1%;
+  
   padding: 1%;
 }
 .expire{
@@ -429,12 +489,44 @@ button{
   margin: 1%;
   padding: 2%;
 }
-.expire-date{
-  margin-left:6px;
+.expiredate0{
+  width: 90%;
+  margin: auto;
+  display: flex;
 }
-.div-save{
+.expiredate1{
+  width: 48%;
+  padding: 1px;
+  margin: 1px;
+}
+.expire2{
+  width: 92%;
+  margin: auto;
+  display: flex;
+}
+.expire22{
   width: 48%;
   margin: 1%;
+  padding: 5px;
+  border-radius: 5px;
+  border: solid 1px grey;
+  
+}
+.expire23{
+  width: 48%;
+  margin: 1%;
+  padding: 5px;
+  border-radius: 5px;
+   border: solid 1px grey;
+  
+}
+.time{
+  width: 100%;
+  padding: 1%;
+}
+.div-save{
+  width: 93%;
+  margin: auto;
   display: flex;
   
 }
@@ -446,9 +538,10 @@ button{
   margin-left: 18px;
 }
 .div-payment1{
-  width: 95.5%;
+  width: 90%;
+  margin: auto;
   background-color:#FF7A18;
-  margin-left: 25px;
+ 
   padding: 1%;
   text-align: center;
   border-radius: 10px;
@@ -456,6 +549,7 @@ button{
   font-weight: 900;
 }
 .data{
-  color: gray;
-  margin-left: 25px;
+  width: 95%;
+  margin: auto;
+  font-size: 14px;
 }

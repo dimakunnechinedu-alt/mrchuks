@@ -57,7 +57,7 @@
         font-size: 15px;
     }
     .discover{
-        font-size: 14px;
+        font-size: 12px;
     }
     #fishporr{
         height: 170px;
@@ -66,6 +66,36 @@
         height: 170px;
         
     }
+    .search{
+        margin-top: 65%;
+    }
+    .fresh{
+        font-size: 20px;
+    }
+    #adds{
+        margin-right: 20%;
+    }
+    .delete3{
+       margin-right: 30%;   
+     }
+     .delete2{
+        margin-right: 50%;
+     }
+     input{
+        width: 58%;
+        
+        
+     }
+     
+     .div-login{
+        flex-direction: column;
+     }
+     .div-login2{
+        width: 98%;
+     }
+     .login-acc{
+        font-size: 20px;
+     }
     
     
     .smoked{
@@ -127,8 +157,12 @@
     .chuks{
         font-size: 16px;
     }
-    .pages-container{
+    .burger{
         display: flex;
+      margin-left: 60%;
+    }
+    .pages-container{
+        display: none;
     }
     .pages-container2{
         display: none;
@@ -173,7 +207,7 @@
         font-size: 25px;
     }
     .heart{
-        font-size: 50px;
+        font-size: 40px;
     }
     .popular-exp{
         flex-direction: column;
@@ -192,6 +226,16 @@
     .jollofchik{
         font-size: 14px;
     }
+    .div-order1{
+        width: 180px;
+        height: 150px;
+        background-color: lightgray;
+        
+    }
+    .orederimg{
+        width: 100%;
+        height: 100%;
+    }
     .div-order2{
         flex-direction: column;
     }
@@ -204,25 +248,90 @@
     .div-order4{
         width: 98%;
     }
-    
+    .menuBurger{
+        width: 50%;
+    }
+    .discover{
+        font-size: 12px;
+        /* padding: 5%; */
+        
+    }
+    .secbox-container{
+        width: 28%;
+        padding: 2%;
+    }
+    .secbox-container1{
+        width: 28%;
+        padding: 2%;
+    }
+    .copyright1{
+        width: 48%;
+    }
     
         
 }  
 
 /* for iphone 14 promax*/
 @media  screen and (max-width: 430px){
+    .menuBurger{
+        width: 70%;
+    }
+    .discover{
+        font-size: 10px;
+    }
+    .search1{
+        margin-top:92%;
+    }
     
+    .chuks{
+        font-size: 13px;
+    }
+    .kitchen{
+        font-size: 8px;
+        
+    }
+    .heart{
+        font-size: 28px;
+    }
+    #sec1-div1{
+        height: 69%;
+    }
+    .fresh{
+        font-size: 15px;
+    }
+    #chikimg{
+        height: 50%;
+    }
+    .chikimg{
+        height: 50%;
+    }
+    .flavour{
+        font-size: 10px;
+    }
+    .quick{
+        font-size: 10px;
+    }
+    .links{
+        font-size: 10px;
+    }
+    .jollof-rice{
+        font-size: 18px;
+    }
    
 }
 
 /* for iphone XR*/
 @media  screen and (max-width: 414px){
     
-    
+    .search1{
+        margin-top:91%;
+    }
 }
 /* for Samsug galaxy s20 ultra*/
 @media  screen and (max-width: 412px){
-
+    .search1{
+        margin-top:98%;
+    }
 
 }
 @media  screen and (max-width: 393px){
@@ -230,7 +339,15 @@
 }
 /* for iphone 12 pro*/
 @media  screen and (max-width: 390px){
-    
+    .search1{
+        margin-top:86%;
+    }
+    .chuks{
+        font-size: 12px;
+    }
+     .jollof-rice{
+        font-size: 16px;
+    }
 
 
 }
@@ -241,14 +358,49 @@
 }
 /* for samsung galaxy s8+*/
 @media  screen and (max-width: 360px){
-   
+    .login-acc{
+        font-size: 16px;
+    }
+    .chuks{
+        font-size: 11px;
+    }
+    .quick{
+        font-size: 8px;
+    }
+    .flavour{
+        font-size: 8px;
+    }
+    .links{
+        font-size: 9px;
+    }
+    .jollof-rice{
+        font-size: 13px;
+    }
+     }
+    .extra{
+        font-size: 12px;
+    }
+    .copyright1{
+        font-size: 10px;
+    }
     
 
-}
+
 /* for galaxy z fold 5*/
 @media  screen and (max-width: 344px){
     
-    
+    .kitchen{
+        font-size: 7px;
+    }
+    .jollof-rice{
+        font-size: 13px;
+    }
+    .extra{
+        font-size: 12px;
+    }
+    .copyright1{
+        font-size: 10px;
+    }
 
 }
 /* for iphone 5/se*/

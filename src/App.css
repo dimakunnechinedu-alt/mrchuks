@@ -69,7 +69,7 @@
     width: 15%;
     justify-content: center;
     align-items: center;
-    display: flex;
+    display: none;
     filter: invert();
     
 }
@@ -133,8 +133,18 @@
   
 }
 #sec1-div1{
+  width: 100%;
   background-image: url(../public/hero.png);
-  height:100vh;
+  height: 90vh;
+   background-repeat: no-repeat;
+  background-size: cover;
+}
+#sec1-div1::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0,0,0,0.4);
+  height: 100vh;
 }
 
 .secbox-container{
@@ -147,6 +157,10 @@
   justify-content: center;
   align-items: center;
   
+}
+.secbox-container h4{
+   z-index: 2;
+   
 }
 .discover{
   color: #FFFFFF;
@@ -278,7 +292,15 @@
 .footerdiv{
   background-image: url(../public/bean-stew.png);
   height:100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
   
+}
+.footerdiv::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0,0,0,0.8);
 }
 .sec{
   width: 100%;
@@ -299,9 +321,9 @@
 } 
 .search{
   width: 90%;
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF; */
   margin: auto;
-  position: relative;
+  
   display: flex;
   justify-content: center;
 }
@@ -309,10 +331,11 @@
   width: 78%;
   background-color: #FFFFFF;
   margin: 1%;
-  margin-top: 15%;
+  margin-top: 10%;
   padding: 8px;
   display: flex;
-  position: absolute;
+  z-index: 2;
+  position: relative;
   border-radius: 10px;
 }
 .searchicon{
@@ -374,20 +397,20 @@
 .copyright{
   width: 93%;
   background-color: rgb(149, 72, 21);
-  margin: 1%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   
 }
 .copyright1{
-  width: 28%;
+  width: 48%;
   margin: 1%;
-  margin-left: 60px;
-  font-size: 12px;
+  
+  font-size: 16px;
   color: #FFFFFF;
 }
 .copyright2{
-  width: 4%;
+  width: 6%;
   margin: 1%;
   background-color: #1E88E5 ;
   display: flex;
@@ -410,19 +433,25 @@
   display: flex;
 }
 .div-login1{
- width: 50%;
- height: 100vh;
- background-image: url(../public/chicken-rice.png);
+ width: 60%;
+ /* height: 100vh; */
+ background-image: url(../public/bean-stew.png);
+ background-repeat: no-repeat;
+  background-size: cover;
  
- object-fit: cover;
- margin: 1%;
- padding: 1%;
+
+ 
 }
 .div-login2{
  width: 48%;
  background-color: whitesmoke;
  margin: 1%;
  padding: 1%;
+}
+.contiwith{
+  width: 100%;
+  text-align: center;
+   color: #1F2937;
 }
 .div-login3{
   width: 88%;
@@ -539,6 +568,8 @@
   width: 98%;
   background-color: #FFFFFF;
   margin: 1%;
+  padding: 1%;
+  border: solid 1px gray;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -550,8 +581,10 @@
   width: 98%;
   background-color: #FFFFFF;
   margin: 1%;
+  padding: 1%;
   border-radius: 5px;
   display: flex;
+   border: solid 1px gray;
   justify-content: center;
 }
 .conti{
